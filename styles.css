@@ -24,12 +24,16 @@ body{
     padding: 30px;
 }
 
-.about{
+#about{
     display: flex;
     padding: 20px;
 }
 
-.about .links{
+#about h2 {
+    font-weight: bold;
+}
+
+#about .links{
     display: flex;
     justify-content:flex-end;
     gap: 1rem;
@@ -41,7 +45,7 @@ body{
     margin: 20px 0px 20px 0px;
 }
 
-.card-container{
+#projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -64,12 +68,12 @@ body{
     width: 1.3em;
 }
 
+#contact{
+    padding: 20px;
+    background-color: rgb(214, 236, 115);
+}
+
 footer{
     display: grid;
     grid-template-columns: 1fr 300px;
-}
-
-.contact{
-    padding: 20px;
-    background-color: rgb(214, 236, 115);
 }
