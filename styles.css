@@ -29,6 +29,12 @@ body{
     padding: 20px;
 }
 
+.about .links{
+    display: flex;
+    justify-content:flex-end;
+    gap: 1rem;
+}
+
 .about-description {
     padding: 20px;
     background-color: aqua;
@@ -46,7 +52,16 @@ body{
     padding: 1rem;
     background-color: bisque;
     border-radius: 5px;
-    padding: 1rem;
+}
+
+.cards .links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.cards .links img{
+    width: 1.3em;
 }
 
 footer{
